@@ -1,6 +1,7 @@
 project "EnTT"
     kind "StaticLib"
-    language "C"
+    language "C++"
+    cppdialect "C++20"
     staticruntime "on"
     
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
